@@ -52,7 +52,7 @@ def main():
                 attendance_percentage = st.slider("Persentase Kehadiran (%)", 0, 100, 85)
                 study_hours_per_day = st.number_input("Jam Belajar Per Hari", 0, 24, 4)
                 backlogs = st.number_input("Jumlah Backlog (Mata kuliah mengulang)", 0, 10, 0)
-                branch = st.selectbox("Jurusan (Branch)", ["Computer Science", "Information Technology", "Electronics", "Mechanical", "Civil", "Other"])
+                branch = st.selectbox("Jurusan (Branch)", ["CSE", "ECE", "IT", "ME", "CE"])
             with col2:
                 coding_skill_rating = st.slider("Rating Skill Coding (1-100)", 1, 100, 50)
                 communication_skill_rating = st.slider("Rating Skill Komunikasi (1-100)", 1, 100, 50)
